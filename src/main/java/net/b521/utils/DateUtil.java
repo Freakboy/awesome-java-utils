@@ -12,7 +12,7 @@ import java.util.GregorianCalendar;
  *
  * @Description: 处理日期时间的工具类
  **/
-public class DateUtil {
+public abstract class DateUtil {
 
     private static final int[] DAY_OF_MONTH = new int[] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 

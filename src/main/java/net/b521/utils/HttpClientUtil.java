@@ -32,7 +32,7 @@ import java.util.Set;
  *
  * @Description: 进行 httpClient 的工具类
  **/
-public class HttpClientUtil {
+public abstract class HttpClientUtil {
 
     // 日志
     public static Logger log = Logger.getLogger(HttpClientUtil.class);

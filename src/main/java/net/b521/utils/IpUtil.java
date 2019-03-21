@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
  *
  * @Description: IP地址相关工具类
  **/
-public class IpUtil {
+public abstract class IpUtil {
 
 
     /**
