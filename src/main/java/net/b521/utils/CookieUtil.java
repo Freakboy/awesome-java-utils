@@ -12,14 +12,20 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
+/**
+ * @author Allen
+ * @Date: 2020/05/06 17:20
+ * @Description: Cookie工具类
+ * @Version 1.0
+ **/
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CookieUtil {
 
 	private static Logger logger = LoggerFactory.getLogger(CookieUtil.class);
 	/**
-	 * 设置cookie域，默认为：paascloud.net]
+	 * 设置cookie域，默认为：b521.net
 	 */
-	private final static String COOKIE_DOMAIN = "paascloud.net";
+	private final static String COOKIE_DOMAIN = "b521.net";
 	/**
 	 * 设置默认路径：/，这个路径即该工程下都可以访问该cookie 如果不设置路径，那么只有设置该cookie路径及其子路径可以访问
 	 */
